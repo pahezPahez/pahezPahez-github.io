@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto!';
+    src: local('Roboto');
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto!';
+    src: local('Roboto');
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    font-family: "Roboto!";
+}
+
+body {
+    background-color: #ffe2b0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.bebra:hover {
+    color: rgb(131, 23, 23);
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+
+li {
+    display: inline;
+    margin: 75px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+li:last-child {
+    margin-right: 0px;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+.section-about {
+    height: 640px;
+    background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section-about__block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.section-about__border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 8px 0 0 16px;
+    text-align: left;
+}
+
+.section-about__title {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-about__text {
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box img {
+    margin-right: 76px;
+}
+
+.section-description__icon-box img:last-child {
+    margin-right: 0;
+}
+
+.section-description__title {
+    font-size: 96px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-map__delivery:hover {
+    color: rgb(199, 163, 115);
+}
+
+.brown {
+    color: rgb(131, 23, 23);
+}
+
+.section-description__text {
+    font-size: 18px;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-map {
+    margin-bottom: 20px;
+}
+
+.box-zakaz{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.zakaz {
+    border-radius: 10px;
+    width: 190px;
+    height: 65px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: rgba(28, 49, 94, 0.993);
+    background-color: rgb(252, 214, 221);
+    border-color: #b89559;
+}
+
+.zakaz:hover{
+    background-color:rgb(199, 163, 115);
+}
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: blanchedalmond;
+}
+
+.footer_ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 ;
+    text-align: start;
+    position: relative;
+}
+
+.footer_head {
+    position: absolute;
+    top: 35px;
+}
+
+.pic-1 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.pic-2 {
+    position: absolute;
+    top: 80px;
+    left: 135px;
+}
+
+.pic-3 {
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+
+.pic-4 {
+    position: absolute;
+    top: 170px;
+    left: 250px;
+}
+
+.pic-5 {
+    position: absolute;
+    top: 170px;
+    left: 135px;
+}
+
+.pic-6 {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+
+.pahez {
+    font-size: medium;
+}
+
+
+.btn {
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+.click {
+    color: antiquewhite;
+    padding-top: 13px;
+    display: block;
+    text-align: center;
+    font-size: 20px
+}
+
+.click:hover {
+    color: #b89559;
+}
+
+.li-footer {
+    margin: 55px;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.support {
+    font-size: medium;
+}
+
+.sp {
+    font-size: 30px;
+}
+
+.section-product{
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+
+.box_for-cont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.blok-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: rgb(252, 214, 221);
+    margin-right: 30px;
+}
+
+.blok-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: rgb(252, 214, 221);
+    margin-right: 30px;
+}
+
+.blok-3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: rgb(252, 214, 221);
+}
+
+.sloyka {
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.blok-1_title{
+    position: absolute;
+    top: 250px;
+    font-size: 25px;
+}
+
+.blok-1_text{
+    position: absolute;
+    top: 320px;
+    text-align: center;
+    font-style: oblique;
+}
+
+.blok-1_prise{
+    position: absolute;
+    top: 480px;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.mak{
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.kruas{
+    padding: 25px;
+    border-radius: 50%; 
+}
+
+
+
+.box-zakaz{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-zakaz{
+    margin-top: 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+label:last-child{
+    margin-right: 0;
+}
+
+.inp{
+    border-color: #b89559;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 30px;
+    background-color: rgb(252, 214, 221); 
+}
